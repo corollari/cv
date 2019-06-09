@@ -1,0 +1,169 @@
+%!TEX TS-program = xelatex
+\documentclass[]{friggeri-cv}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\addbibresource{bibliography.bib}
+
+\begin{document}
+\header{albert}{acebrón}
+       {student\textsuperscript{3} | co-founder | hackathon-goer}
+
+% In the aside, each new line forces a line break
+\begin{aside}
+  \includegraphics[width=\textwidth]{me.jpg}
+  \section{about}
+    %20 years old
+    Barcelona, Spain
+    +34 684 35 13 87
+    \href{mailto:me@albert.sh}{me@albert.sh}
+    \href{https://albert.sh}{albert.sh}
+    \href{https://github.com/corollari}{Github: @corollari}
+  \section{languages}
+    English - C2
+    Catalan - Native
+    Spanish - Native
+    Chinese - A1
+  \section{programming}
+    {\color{red} $\varheartsuit$} JavaScript (Proficient)
+    C \& C++ (Proficient)
+    Solidity (Proficient)
+    Python (Good)
+    HTML5 \& CSS (Okayish)
+  \section{hackathons}
+HackMIT
+HackUPC
+OxfordHack
+Junction
+Local Hack Day
+Imagine Express
+uCode Zaragoza
+Copenhacks
+Wikipedia Hackathon
+\end{aside}
+%
+%\section{interests}
+%bitcoin, P2P networks, protocols
+
+\section{education}
+
+\begin{entrylist}
+  \entry
+    {since 2017}
+    {Degree in Maths}
+    {\\Universitat Autònoma de Barcelona (UAB), GPA: 9/10}
+    {Top 5th percentile}
+  \entry
+    {since 2016}
+    {Double degree in Computer Science and Telecommunications}
+    {\\Universitat Autònoma de Barcelona (UAB), GPA: 9/10}
+    {Top 1st (2016-2017) and top 5th (2017-2018) by grades in UAB’s Engineering Faculty (\textasciitilde3000 students)}
+%  \entry
+%    {2014-2016}
+%    {Batxillerat}
+%    {\\Institut Samuel Gili i Gaya, Lleida}
+%    {%Specialized in technology\\
+%    Concluded with a grade of access to university of 12.8 out of 14}
+\end{entrylist}
+
+\section{work}
+
+\begin{entrylist}
+  \entry
+    {since 2018}
+    {Student Ambassador at Wolfram}
+    {\href{https://www.wolfram.com/}{wolfram.com}}
+    {}
+  \entry
+    {2017- 2018}
+    {Co-Founder at Fisiotime}
+    {\href{http://fisioti.me}{fisioti.me}}
+    {Co-founded a startup that uses AI to automate ad campaigns for small bussinesses}
+  \entry
+    {since 2018}
+    {Co-Founder at WaifuChain}
+    {\href{https://waifuchain.moe}{waifuchain.moe}}
+    {Waifu trading platform on the Ethereum blockchain}
+  \entry
+    {2018-2019}
+    {Teacher}
+    {\href{https://aicourse.albert.sh}{aicourse.albert.sh}}
+    {Taught an extracurricular course on AI the spring semester of 2019/20 at Universitat Autònoma de Barcelona}
+\end{entrylist}
+
+\section{papers}
+
+\begin{entrylist}
+  \entry
+    {2016}
+    {\emph{P2P Protocol for MMOGs}}
+    {}
+    {Research paper on building pure P2P networks using blockchain technology to support fully decentralized and serverless MMOGs
+    \\Awarded with the \href{http://eps.blogs.udl.cat/2016/06/29/argelichrecerca/}{Prize to research projects by the University of Lleida}
+    %\begin{itemize}  
+    %\item \href{http://eps.blogs.udl.cat/2016/06/29/argelichrecerca/}{Prize to research projects - University of Lleida}
+    %\item Prize to research projects in the area of Maths - INS Samuel Gili i Gaya
+    %\end{itemize}
+    }
+\end{entrylist}
+
+\break
+
+\section{projects}
+
+\begin{entrylist}
+  \entry
+    {2018/19}
+    {HackUAB}
+    {\href{https://hackuab.com}{hackuab.com}}
+    {Organized a 300-people hackathon at my university}
+  \entry
+    {2018}
+    {Latex Dictation [HackMIT]}
+    {\href{https://devpost.com/software/latex-dictation}{devpost.com/software/latex-dictation}}
+    {System that translates spoken math formulas to latex}
+  \entry
+    {2017}
+    {MediQ [OxfordHack - University of Oxford]}
+    {\href{https://github.com/rasmustm/mediq-oxfordhack2017}{github.com/rasmustm/mediq-oxfordhack2017}}
+    {Web app + Flask server that combines speech recognition with several medical journal APIs to output relevant studies given a conversation as input}
+  \entry
+    {2018}
+    {Inspire [Imagine Express]}
+    {}{System, built with a team from Otsuka, that helps healthcare institutions keep patients with schizophrenia engaged in their treatment}
+  \entry
+    {2017}
+    {plebServer}
+    {\href{https://github.com/corollari/plebServer}{github.com/corollari/plebServer}}
+    {Server for an RPG MMO, built using raw POSIX sockets and SQLite}
+\end{entrylist}
+
+\section{language qualifications}
+
+\begin{entrylist}
+  \entry
+    {2016}
+    {Cambridge English: Proficiency (CPE)}
+    {English}
+    {Score: 218/230}
+  \entrynodesc
+    {2016}
+    {Hanyu Shuiping Kaoshi (HSK) 1}
+    {Chinese}
+    %{Score: 186/200}
+\end{entrylist}
+%
+%LEGO
+%%% This piece of code has been commented by Karol Kozioł due to biblatex errors. 
+% 
+%\printbibsection{article}{article in peer-reviewed journal}
+%\begin{refsection}
+%  \nocite{*}
+%  \printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, notkeyword={france}, heading=subbibliography]
+%\end{refsection}
+%\begin{refsection}
+%  \nocite{*}
+%  \printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, heading=subbibliography]
+%\end{refsection}
+%\printbibsection{misc}{other publications}
+%\printbibsection{report}{research reports}
+\end{document}
