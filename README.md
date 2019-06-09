@@ -1,2 +1,5 @@
 # cv
-My curriculum
+
+```bash
+xelatex cv.tex
+```
