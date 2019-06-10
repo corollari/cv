@@ -1,0 +1,7 @@
+language: generic
+
+before_install:
+  - sudo apt-get install -y texlive texlive-extra
+
+script:
+  - xelatex cv.tex
