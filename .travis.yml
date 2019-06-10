@@ -1,7 +1,9 @@
 language: generic
+dist: trusty
 
 before_install:
-  - sudo apt-get install -y texlive texlive-extra
+  - sudo apt-get -qq update
+  - sudo apt-get install -y --no-install-recommends texlive-fonts-recommended texlive-latex-extra texlive-fonts-extra dvipng texlive-latex-recommended
 
 script:
   - xelatex cv.tex
